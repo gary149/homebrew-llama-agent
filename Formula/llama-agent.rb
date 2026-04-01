@@ -25,7 +25,7 @@ class LlamaAgent < Formula
     ENV["CMAKE_IGNORE_PREFIX_PATH"] = HOMEBREW_PREFIX.to_s
 
     system "cmake", "-S", ".", "-B", "build", *args, *std_cmake_args
-    system "cmake", "--build", "build"
+    system "cmake", "--build", "build", "--target", "llama-agent"
 
     bin.install "build/bin/llama-agent"
   end
