@@ -2,8 +2,8 @@ class LlamaAgent < Formula
   desc "Local AI coding agent powered by llama.cpp"
   homepage "https://github.com/gary149/llama-agent"
   url "https://github.com/gary149/llama-agent.git",
-      tag:      "b8845",
-      revision: "ad0f4839d6d8b469fb08af07d54c2835a3c2ab85"
+      tag:      "b8888",
+      revision: "d57e597ca35c07b7efebb93fec385a45d3254ffe"
   license "MIT"
   head "https://github.com/gary149/llama-agent.git", branch: "master"
 
